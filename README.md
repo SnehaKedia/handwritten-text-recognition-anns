@@ -1,1 +1,3 @@
-# handwritten-text-recognition-anns
+# Handwritten Text Recognition using ANNs
+
+In this project we developed an algorithm for the application of handwritten text identification using ANNs. The classifiers that we have selected for the classification tasks were: a pipeline of an RBM to extract the features and Multi- layer Perceptron (MLP) to classify, an MLP using HOG (Histogram of Oriented Gradients) features, an MLP using PCA (Principal Component Analysis) and an MLP. We have implemented the classification process using the scikit-learn library. We have learned the classifiers using the train data and computing various metrics in the test data. From our testing the best results were produced by the MLP with PCA features and the MLP.
